@@ -2,6 +2,7 @@
     --mm-blue: #3D69B2;
     --mm-purple: #4D4B9F;
     --mm-white: #F8F8F8;
+    --mm-gray: #333;
 }
 
 * {
@@ -12,7 +13,7 @@
 .container {
     margin: 0 auto;
     padding-left: 1rem;
-    padding-right: 1rem;
+    padding-right: rem;
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
     max-width: 90rem;
@@ -23,12 +24,10 @@ header {
     top: 0;
     z-index: 50;
     width: 100%;
-    background: linear-gradient(
-        120deg,
-        #ffffff,
-        #f5f8fd,
-        #ffffff
-    );
+    background: linear-gradient(120deg,
+            #ffffff,
+            #f5f8fd,
+            #ffffff);
     border-bottom: 1px solid var(--mm-blue);
 }
 
@@ -51,6 +50,7 @@ header {
     text-decoration: none;
     color: var(--mm-blue);
 }
+
 .cab nav a:hover {
     /* transition-duration: 0.5s; */
     color: var(--mm-purple);
@@ -67,9 +67,8 @@ header {
     border-radius: 0.5rem;
     border: 1px solid var(--mm-blue)
 }
-.cab #lang:hover {
-    
-}
+
+.cab #lang:hover {}
 
 .logo-letras img {
     width: auto;
@@ -86,3 +85,132 @@ header {
     font-family: "Gil Sans";
     src: url(./assets/fonts/GIL_____.TTF);
 } */
+
+html,
+body {
+  min-height: 100%;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+}
+
+/* =========================
+   QUE FACEMOS
+========================= */
+
+#que-facemos {
+  padding-top: 4rem;
+  padding-bottom: 5rem;
+  font-family: 'Gill Sans MT', sans-serif;
+}
+
+.intro-que-facemos {
+  margin-bottom: 3rem;
+}
+
+.intro-que-facemos h2 {
+  color: var(--mm-blue);
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.intro-que-facemos p {
+  color: var(--mm-gray);
+  font-size: 1.1rem;
+  line-height: 1.7;
+}
+
+#que-facemos h3 {
+  color: var(--mm-purple);
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.grid-areas-actuacion {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+}
+
+.card-area-actuacion {
+  background-color: #ffffff;
+
+  padding: 2rem;
+
+  border-radius: 12px;
+  border-left: 4px solid var(--mm-blue);
+
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+
+  transition: transform 0.2s ease,
+              box-shadow 0.2s ease;
+}
+
+.card-area-actuacion:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 22px rgba(0, 0, 0, 0.12);
+}
+
+.card-area-actuacion h4 {
+  color: var(--mm-blue);
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+}
+
+.card-area-actuacion p {
+  color: var(--mm-gray);
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+
+  #que-facemos {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+
+  .intro-que-facemos h2 {
+    font-size: 2rem;
+  }
+
+  .grid-areas-actuacion {
+    grid-template-columns: 1fr;
+  }
+
+  .card-area-actuacion {
+    padding: 1.5rem;
+  }
+
+}
+
+/* =========================
+   FOOTER
+========================= */
+footer {
+    background-color: var(--mm-gray);
+    color: var(--mm-white);
+    font-family: 'Gill Sans MT', sans-serif;
+    padding: 1rem 0;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer a {
+    color: var(--mm-white);
+    text-decoration: none;
+}
+.footer a:hover {
+  color: #b9ccef;
+}
