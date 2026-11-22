@@ -1,6 +1,8 @@
+DEFAULT_LANG = "galego"
+
 const idiomas = {
 
-    galego: {
+    "galego": {
         "quen_somos": "Quen somos",
         "texto_quen_somos": "Somos unha asociación cultural sen ánimo de lucro, formada por unha equipa de xente sensibilizada coas linguas minoritarias e minorizadas do estado español. Movidas por un profundo amor e respecto por tódalas linguas que coexisten en todo o territorio, considerámonos afortunadas de poder contar con este patrimonio lingüístico único e diverso. Cremos que cada lingua constrúe unha forma única de ollar o mundo e a música é a chave para mostrar esa ollada ao resto, de aí que se diga que a música é a linguaxe universal. En MiusikMin atoparás unha equipa comprometida coa promoción, visibilización, divulgación e normalización de tódalas linguas minoritarias do estado español, usando a música como ferramenta principal de transformación social e difusión tanto cultural como educativa. Non só protexemos palabras; celebramos identidades!",
 
@@ -21,7 +23,7 @@ const idiomas = {
 
     },
 
-    aranes: {
+    "aranes": {
         "quen_somos": "Qui èm",
         "texto_quen_somos": "Sèm ua associacion culturau sense ànim de lucre, formada per un equip de persones sensibilizades damb es lengües minoritàries e minoritzades der Estat espanhòl. Movudes per un amor e un respècte prigonds entà totes es lengües que coexisteixen en territòri, mos consideram afortunades de poder compdar damb aguest patrimòni lingüistic unic e diuèrs. Credem qu'aguesta lengua construís ua forma unica de guardar eth mon e qu'era musica ei era clau entà mostrar aguesta mirada ara rèsta. D'aciu que se digue qu'era musica ei eth lenguatge universau. En MiusikMin trobaràs un equip comprometut damb era promocion, era visibilizacion, era divulgacion e era normalizacion de totes es lengües minoritàries der Estat espanhòl, en tot utilizar era musica coma airina principau de transformacion sociau e de difusion culturau e educativa. Non sonque protegim paraules; celebram identitats!",
 
@@ -41,7 +43,7 @@ const idiomas = {
         "correo_electronico": "Correu electronic",
     },
 
-    catala: {
+    "catala": {
         "quen_somos": "Quen somos",
         "texto_quen_somos": "Somos unha asociación cultural sen ánimo de lucro, formada por unha equipa de xente sensibilizada coas linguas minoritarias e minorizadas do estado español. Movidas por un profundo amor e respecto por tódalas linguas que coexisten en todo o territorio, considerámonos afortunadas de poder contar con este patrimonio lingüístico único e diverso. Cremos que cada lingua constrúe unha forma única de ollar o mundo e a música é a chave para mostrar esa ollada ao resto, de aí que se diga que a música é a linguaxe universal. En MiusikMin atoparás unha equipa comprometida coa promoción, visibilización, divulgación e normalización de tódalas linguas minoritarias do estado español, usando a música como ferramenta principal de transformación social e difusión tanto cultural como educativa. Non só protexemos palabras; celebramos identidades!",
 
@@ -61,7 +63,7 @@ const idiomas = {
         "correo_electronico": "Correu electrònic",
     },
 
-    castellano: {
+    "castellano": {
         "quen_somos": "Quen somos",
         "texto_quen_somos": "Somos unha asociación cultural sen ánimo de lucro, formada por unha equipa de xente sensibilizada coas linguas minoritarias e minorizadas do estado español. Movidas por un profundo amor e respecto por tódalas linguas que coexisten en todo o territorio, considerámonos afortunadas de poder contar con este patrimonio lingüístico único e diverso. Cremos que cada lingua constrúe unha forma única de ollar o mundo e a música é a chave para mostrar esa ollada ao resto, de aí que se diga que a música é a linguaxe universal. En MiusikMin atoparás unha equipa comprometida coa promoción, visibilización, divulgación e normalización de tódalas linguas minoritarias do estado español, usando a música como ferramenta principal de transformación social e difusión tanto cultural como educativa. Non só protexemos palabras; celebramos identidades!",
 
@@ -81,7 +83,7 @@ const idiomas = {
         "correo_electronico": "Correo electrónico",
     },
 
-    euscaro: {
+    "euscaro": {
         "quen_somos": "Quen somos",
         "texto_quen_somos": "Somos unha asociación cultural sen ánimo de lucro, formada por unha equipa de xente sensibilizada coas linguas minoritarias e minorizadas do estado español. Movidas por un profundo amor e respecto por tódalas linguas que coexisten en todo o territorio, considerámonos afortunadas de poder contar con este patrimonio lingüístico único e diverso. Cremos que cada lingua constrúe unha forma única de ollar o mundo e a música é a chave para mostrar esa ollada ao resto, de aí que se diga que a música é a linguaxe universal. En MiusikMin atoparás unha equipa comprometida coa promoción, visibilización, divulgación e normalización de tódalas linguas minoritarias do estado español, usando a música como ferramenta principal de transformación social e difusión tanto cultural como educativa. Non só protexemos palabras; celebramos identidades!",
 
@@ -101,7 +103,7 @@ const idiomas = {
         "correo_electronico": "Posta elektronikoa",
     },
 
-    valencia: {
+    "valencia": {
         "quen_somos": "Quen somos",
         "texto_quen_somos": "Somos unha asociación cultural sen ánimo de lucro, formada por unha equipa de xente sensibilizada coas linguas minoritarias e minorizadas do estado español. Movidas por un profundo amor e respecto por tódalas linguas que coexisten en todo o territorio, considerámonos afortunadas de poder contar con este patrimonio lingüístico único e diverso. Cremos que cada lingua constrúe unha forma única de ollar o mundo e a música é a chave para mostrar esa ollada ao resto, de aí que se diga que a música é a linguaxe universal. En MiusikMin atoparás unha equipa comprometida coa promoción, visibilización, divulgación e normalización de tódalas linguas minoritarias do estado español, usando a música como ferramenta principal de transformación social e difusión tanto cultural como educativa. Non só protexemos palabras; celebramos identidades!",
 
@@ -123,3 +125,18 @@ const idiomas = {
 
 };
 
+changeLang(DEFAULT_LANG);
+
+function changeLang(current_lang){
+    const traducibles = document.querySelectorAll("[data-i18n]");
+    
+    traducibles.forEach(el => {
+        el.innerHTML = idiomas[current_lang][el.dataset.i18n]
+    });
+}
+
+const lang_sel = document.getElementById('lang');
+lang_sel.addEventListener('input', () => {
+    current_lang = lang_sel.value;
+    changeLang(current_lang);
+})
