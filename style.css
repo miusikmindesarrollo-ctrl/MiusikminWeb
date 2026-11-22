@@ -11,6 +11,7 @@
 * {
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 
 .container {
@@ -162,18 +163,87 @@ header {
   margin-bottom: 1rem;
 }
 
+.seccion p {
+  color: var(--mm-gray);
+  font-size: 1.1rem;
+  line-height: 1.7;
+}
+
+/* =========================
+   QUEN SOMOS
+========================= */
+.quen-contenido {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: clamp(1.5rem, 4vw, 5rem);
+}
+.quen-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: clamp(0.75rem, 1.5vw, 1rem);
+  justify-items: center;
+}
+.quen-card {
+  max-width: max-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  padding: 1.5rem;
+  box-sizing: border-box;
+  gap: clamp(0.75rem, 2vw, 1.5rem);
+}
+.quen-card--difusion {
+  background-color: var(--mm-purple);
+}
+.quen-card--equipo {
+  background-color: var(--mm-blue);
+}
+.quen-card--musica {
+  background-color: var(--mm-pink);
+}
+.quen-card--asociacion {
+  background-color: var(--mm-green);
+}
+
+.quen-card img {
+  width: auto;
+  height: 100px;
+}
+.quen-card p {
+  color: white;
+}
+.quen-card::after {
+  content: "";
+  width: 5rem;
+  height: 2px;
+  background-color: white;
+  margin-top: 0.25rem;
+  opacity: 0.85;
+}
+
+@media (max-width: 900px) {
+  .quen-contenido {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
+
+/* En móvil muy estrecho, si los cuadrados quedan muy chicos, puedes pasar a 1 columna */
+@media (max-width: 460px) {
+  .quen-grid {
+    grid-template-columns: minmax(0, 1fr);
+    max-width: 320px;
+  }
+}
+
 /* =========================
    QUE FACEMOS
 ========================= */
 
 .intro-que-facemos {
   margin-bottom: 3rem;
-}
-
-.intro-que-facemos p {
-  color: var(--mm-gray);
-  font-size: 1.1rem;
-  line-height: 1.7;
 }
 
 #que-facemos h3 {
