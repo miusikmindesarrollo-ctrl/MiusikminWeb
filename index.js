@@ -4,6 +4,10 @@ let current_lang = DEFAULT_LANG;
 const idiomas = {
 
     "gl": {
+        "slogan_musica_ponte": "A música como ponte, a lingua como fogar.",
+        "slogan_lingua_musica": "Cada lingua constrúe unha forma única de ollar o mundo e a música é a chave para mostrar esa ollada ao resto.",
+        "saber_mais": "Saber máis",
+
         "quen_somos": "Quen somos",
         "texto_quen_somos": "Somos unha asociación cultural sen ánimo de lucro, formada por unha equipa de xente sensibilizada coas linguas minoritarias e minorizadas do estado español. Movidas por un profundo amor e respecto por tódalas linguas que coexisten en todo o territorio, considerámonos afortunadas de poder contar con este patrimonio lingüístico único e diverso. Cremos que cada lingua constrúe unha forma única de ollar o mundo e a música é a chave para mostrar esa ollada ao resto, de aí que se diga que a música é a linguaxe universal. En MiusikMin atoparás unha equipa comprometida coa promoción, visibilización, divulgación e normalización de tódalas linguas minoritarias do estado español, usando a música como ferramenta principal de transformación social e difusión tanto cultural como educativa. Non só protexemos palabras; celebramos identidades!",
 
@@ -25,6 +29,10 @@ const idiomas = {
     },
 
     "oc-aranes": {
+        "slogan_musica_ponte": "Era musica coma pònt, era lengua coma lar.",
+        "slogan_lingua_musica": "Cada lengua bastís ua forma unica de guardar eth mon e era musica ei era clau entà mostrar aguesta guardada ath rèste.",
+        "saber_mais": "Saber-ne mès",
+
         "quen_somos": "Qui èm",
         "texto_quen_somos": "Sèm ua associacion culturau sense ànim de lucre, formada per un equip de persones sensibilizades damb es lengües minoritàries e minoritzades der Estat espanhòl. Movudes per un amor e un respècte prigonds entà totes es lengües que coexisteixen en territòri, mos consideram afortunades de poder compdar damb aguest patrimòni lingüistic unic e diuèrs. Credem qu'aguesta lengua construís ua forma unica de guardar eth mon e qu'era musica ei era clau entà mostrar aguesta mirada ara rèsta. D'aciu que se digue qu'era musica ei eth lenguatge universau. En MiusikMin trobaràs un equip comprometut damb era promocion, era visibilizacion, era divulgacion e era normalizacion de totes es lengües minoritàries der Estat espanhòl, en tot utilizar era musica coma airina principau de transformacion sociau e de difusion culturau e educativa. Non sonque protegim paraules; celebram identitats!",
 
@@ -45,8 +53,12 @@ const idiomas = {
     },
 
     "ca": {
-        "quen_somos": "Quen somos",
-        "texto_quen_somos": "Somos unha asociación cultural sen ánimo de lucro, formada por unha equipa de xente sensibilizada coas linguas minoritarias e minorizadas do estado español. Movidas por un profundo amor e respecto por tódalas linguas que coexisten en todo o territorio, considerámonos afortunadas de poder contar con este patrimonio lingüístico único e diverso. Cremos que cada lingua constrúe unha forma única de ollar o mundo e a música é a chave para mostrar esa ollada ao resto, de aí que se diga que a música é a linguaxe universal. En MiusikMin atoparás unha equipa comprometida coa promoción, visibilización, divulgación e normalización de tódalas linguas minoritarias do estado español, usando a música como ferramenta principal de transformación social e difusión tanto cultural como educativa. Non só protexemos palabras; celebramos identidades!",
+        "slogan_musica_ponte": "La música com a pont, la llengua com a llar.",
+        "slogan_lingua_musica": "Cada llengua construeix una manera única de veure el món, i la música és la clau per revelar aquesta perspectiva als altres.",
+        "saber_mais": "Saber-ne més",
+
+        "quen_somos": "Qui som",
+        "texto_quen_somos": "Som una associació cultural sense ànim de lucre, formada per un equip de persones sensibilitzades amb les llengües minoritàries i minoritzades de l’Estat espanyol. Mogudes per un profund amor i respecte per totes les llengües que conviuen al territori, ens considerem afortunades de poder comptar amb aquest patrimoni lingüístic únic i divers. Creiem que cada llengua construeix una manera única de mirar el món i que la música és la clau per mostrar aquesta mirada a la resta. D’aquí ve que es digui que la música és el llenguatge universal. A MiusikMin hi trobaràs un equip compromès amb la promoció, la visibilització, la divulgació i la normalització de totes les llengües minoritàries de l’Estat espanyol, utilitzant la música com a eina principal de transformació social i de difusió cultural i educativa. No només protegim paraules; celebrem identitats!",
 
         "que_facemos": "Què fem",
         "texto_que_facemos": "El principal objectiu de la nostra entitat és visibilitzar, impulsar, divulgar i celebrar la diversitat lingüística dels diferents territoris que componen l’Estat espanyol. Treballem per crear xarxes entre artistes, impulsar projectes educatius, organitzar trobades i apropar la creació musical en aquestes llengües a nous públics, trencant així fronteres geogràfiques i prejudicis culturals. També volem generar espais de trobada, creació i difusió que utilitzin llengües amb menys presència als mitjans de comunicació.",
@@ -65,8 +77,12 @@ const idiomas = {
     },
 
     "es": {
-        "quen_somos": "Quién somos",
-        "texto_quen_somos": "Somos unha asociación cultural sen ánimo de lucro, formada por unha equipa de xente sensibilizada coas linguas minoritarias e minorizadas do estado español. Movidas por un profundo amor e respecto por tódalas linguas que coexisten en todo o territorio, considerámonos afortunadas de poder contar con este patrimonio lingüístico único e diverso. Cremos que cada lingua constrúe unha forma única de ollar o mundo e a música é a chave para mostrar esa ollada ao resto, de aí que se diga que a música é a linguaxe universal. En MiusikMin atoparás unha equipa comprometida coa promoción, visibilización, divulgación e normalización de tódalas linguas minoritarias do estado español, usando a música como ferramenta principal de transformación social e difusión tanto cultural como educativa. Non só protexemos palabras; celebramos identidades!",
+        "slogan_musica_ponte": "La música como puente, el lenguaje como hogar.",
+        "slogan_lingua_musica": "Cada lengua construye una forma única de ver el mundo, y la música es la clave para revelar esa perspectiva a los demás.",
+        "saber_mais": "Saber más",
+
+        "quen_somos": "Quiénes somos",
+        "texto_quen_somos": "Somos una asociación cultural sin ánimo de lucro, formada por un equipo de personas sensibilizadas con las lenguas minoritarias y minorizadas del Estado español. Movidas por un profundo amor y respeto por todas las lenguas que coexisten en el territorio, nos consideramos afortunadas de poder contar con este patrimonio lingüístico único y diverso. Creemos que cada lengua construye una forma única de mirar el mundo y que la música es la llave para mostrar esa mirada al resto. De ahí que se diga que la música es el lenguaje universal. En MiusikMin encontrarás un equipo comprometido con la promoción, visibilización, divulgación y normalización de todas las lenguas minoritarias del Estado español, utilizando la música como herramienta principal de transformación social y de difusión cultural y educativa. ¡No solo protegemos palabras; celebramos identidades!",
 
         "que_facemos": "Qué hacemos",
         "texto_que_facemos": "El principal objetivo de nuestra entidad es visibilizar, impulsar, divulgar y celebrar la diversidad lingüística de los diferentes territorios que componen el Estado español. Trabajamos para crear redes entre artistas, impulsar proyectos educativos, organizar encuentros y acercar la creación musical en estas lenguas a nuevos públicos, rompiendo así fronteras geográficas y prejuicios culturales. También queremos generar espacios de encuentro, creación y difusión que utilicen lenguas con menor presencia en los medios de comunicación.",
@@ -85,8 +101,12 @@ const idiomas = {
     },
 
     "eu": {
-        "quen_somos": "Quen somos",
-        "texto_quen_somos": "Somos unha asociación cultural sen ánimo de lucro, formada por unha equipa de xente sensibilizada coas linguas minoritarias e minorizadas do estado español. Movidas por un profundo amor e respecto por tódalas linguas que coexisten en todo o territorio, considerámonos afortunadas de poder contar con este patrimonio lingüístico único e diverso. Cremos que cada lingua constrúe unha forma única de ollar o mundo e a música é a chave para mostrar esa ollada ao resto, de aí que se diga que a música é a linguaxe universal. En MiusikMin atoparás unha equipa comprometida coa promoción, visibilización, divulgación e normalización de tódalas linguas minoritarias do estado español, usando a música como ferramenta principal de transformación social e difusión tanto cultural como educativa. Non só protexemos palabras; celebramos identidades!",
+        "slogan_musica_ponte": "Musika zubia, hizkuntza etxea.",
+        "slogan_lingua_musica": "Hizkuntza orok mundua ikusteko modu berezia eraikitzen du, eta musika da ikuspegi hori besteei agerian uzteko gakoa.",
+        "saber_mais": "Informazio gehiago",
+
+        "quen_somos": "Nor gara",
+        "texto_quen_somos": "Irabazi-asmorik gabeko kultur elkarte bat gara, Espainiako Estatuko hizkuntza gutxituekiko eta gutxietsiekiko sentiberatasuna duten pertsonek osatutako talde batek eratua. Lurraldean elkarrekin bizi diren hizkuntza guztiekiko maitasun eta errespetu sakonak bultzatuta, zorioneko sentitzen gara hizkuntza-ondare berezi eta anitz hau izateagatik. Uste dugu hizkuntza bakoitzak munduari begiratzeko modu berezi bat eraikitzen duela, eta musika dela begirada hori besteei erakusteko giltza. Horregatik esaten da musika hizkuntza unibertsala dela. MiusikMin-en, Espainiako Estatuko hizkuntza gutxitu guztien sustapenarekin, ikusgarritasunarekin, hedapenarekin eta normalizazioarekin konprometitutako talde bat aurkituko duzu. Horretarako, musika erabiltzen dugu gizarte-eraldaketarako eta kultura- zein hezkuntza-hedapenerako tresna nagusi gisa. Ez ditugu hitzak bakarrik babesten; identitateak ospatzen ditugu!",
 
         "que_facemos": "Zer egiten dugu",
         "texto_que_facemos": "Gure erakundearen helburu nagusia Espainiako Estatua osatzen duten lurraldeetako hizkuntza-aniztasuna ikusgarri egitea, sustatzea, zabaltzea eta ospatzea da. Artisten arteko sareak sortzeko, hezkuntza-proiektuak sustatzeko, topaketak antolatzeko eta hizkuntza horietan egindako musika-sorkuntza publiko berriei hurbiltzeko lan egiten dugu. Horrela, muga geografikoak eta aurreiritzi kulturalak gainditu nahi ditugu. Komunikabideetan presentzia txikiagoa duten hizkuntzak erabiltzen dituzten topaguneak, sorkuntza-guneak eta zabalkunderako espazioak ere sortu nahi ditugu.",
@@ -105,8 +125,12 @@ const idiomas = {
     },
 
     "ca-valencia": {
-        "quen_somos": "Quen somos",
-        "texto_quen_somos": "Somos unha asociación cultural sen ánimo de lucro, formada por unha equipa de xente sensibilizada coas linguas minoritarias e minorizadas do estado español. Movidas por un profundo amor e respecto por tódalas linguas que coexisten en todo o territorio, considerámonos afortunadas de poder contar con este patrimonio lingüístico único e diverso. Cremos que cada lingua constrúe unha forma única de ollar o mundo e a música é a chave para mostrar esa ollada ao resto, de aí que se diga que a música é a linguaxe universal. En MiusikMin atoparás unha equipa comprometida coa promoción, visibilización, divulgación e normalización de tódalas linguas minoritarias do estado español, usando a música como ferramenta principal de transformación social e difusión tanto cultural como educativa. Non só protexemos palabras; celebramos identidades!",
+        "slogan_musica_ponte": "La música com a pont, la llengua com a llar.",
+        "slogan_lingua_musica": "Cada llengua construïx una forma única de mirar el món i la música és la clau per a mostrar eixa mirada a la resta.",
+        "saber_mais": "Saber-ne més",
+
+        "quen_somos": "Qui som",
+        "texto_quen_somos": "Som una associació cultural sense ànim de lucre, formada per un equip de persones sensibilitzades amb les llengües minoritàries i minoritzades de l’Estat espanyol. Mogudes per un profund amor i respecte per totes les llengües que conviuen al territori, ens considerem afortunades de poder comptar amb este patrimoni lingüístic únic i divers. Creiem que cada llengua construïx una manera única de mirar el món i que la música és la clau per a mostrar eixa mirada a la resta. D’ací ve que es diga que la música és el llenguatge universal. En MiusikMin trobaràs un equip compromés amb la promoció, la visibilització, la divulgació i la normalització de totes les llengües minoritàries de l’Estat espanyol, utilitzant la música com a ferramenta principal de transformació social i de difusió cultural i educativa. No només protegim paraules; celebrem identitats!",
 
         "que_facemos": "Què fem",
         "texto_que_facemos": "El principal objectiu de la nostra entitat és visibilitzar, impulsar, divulgar i celebrar la diversitat lingüística dels diferents territoris que componen l’Estat espanyol. Treballem per a crear xarxes entre artistes, impulsar projectes educatius, organitzar trobades i acostar la creació musical en estes llengües a nous públics, trencant així fronteres geogràfiques i prejudicis culturals. També volem generar espais de trobada, creació i difusió que utilitzen llengües amb menys presència en els mitjans de comunicació.",
@@ -128,7 +152,7 @@ const idiomas = {
 
 changeLang(current_lang);
 
-function changeLang(current_lang){
+function changeLang(current_lang) {
     const traducibles = document.querySelectorAll("[data-i18n]");
 
     traducibles.forEach(el => {
