@@ -1,6 +1,7 @@
 :root {
     --mm-blue: #3D69B2;
     --mm-purple: #4D4B9F;
+    --mm-white: #F8F8F8;
 }
 
 * {
@@ -22,7 +23,12 @@ header {
     top: 0;
     z-index: 50;
     width: 100%;
-    background-color: #F8F8F8;
+    background: linear-gradient(
+        120deg,
+        #ffffff,
+        #f5f8fd,
+        #ffffff
+    );
     border-bottom: 1px solid var(--mm-blue);
 }
 
