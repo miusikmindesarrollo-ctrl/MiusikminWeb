@@ -1,31 +1,136 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
     <title>MiusikMin</title>
 </head>
+
 <body>
     <header>
         <div class="container cab">
-            <a href="#" class="logo-letras"><img src="./assets/img/LetrasMiusikminAzul.png" alt="MiusikMin"></a>
+            <a href="#" class="logo-letras">
+                <img src="./assets/img/LogoMiusikminAzulCuadrado.png" alt="Logo MiusikMin" class="logo">Miusikmin</a>
             <nav>
-                <a href="#quien" data-i18n="">Quen somos</a>
-                <a href="#que" data-i18n="">Qué facemos</a>
-                <a href="#contacto">Contacto</a>
+                <a href="#quen-somos" data-i18n="quen_somos">Quen somos</a>
+                <a href="#que-facemos" data-i18n="que_facemos">Qué facemos</a>
+                <a href="#contacto" data-i18n="contacto">Contacto</a>
             </nav>
             <select id="lang">
-                <option value="aranes">Aranès</option>
-                <option value="catala">Català</option>
-                <option value="castellano">Castellano</option>
-                <option value="euscaro">Éuscaro</option>
-                <option value="galego">Galego</option>
-                <option value="valencia">Valencià</option>
+                <option value="oc-aranes">Aranès</option>
+                <option value="ca">Català</option>
+                <option value="es">Castellano</option>
+                <option value="eu">Éuscaro</option>
+                <option value="gl" selected>Galego</option>
+                <option value="ca-valencia">Valencià</option>
             </select>
         </div>
     </header>
-    <main></main>
-    <footer></footer>
+
+    <main>
+        <div class="hero-background">
+            <section class="container hero">
+                <div class="hero-texto">
+                    <h1 data-i18n="slogan_musica_ponte">A música como ponte, a lingua como fogar.</h1>
+                    <p class="hero_p" data-i18n="slogan_lingua_musica">Cada lingua constrúe unha forma única de ollar o
+                        mundo
+                        e a música é a chave para mostrar esa ollada ao resto.</p>
+                    <button data-i18n="saber_mais">Saber máis</button>
+                </div>
+                <div class="hero-image"></div>
+            </section>
+        </div>
+
+        <section class="container quen blue seccion" id="quen-somos">
+            <h2 data-i18n="quen_somos">Quen somos</h2>
+            <div class="quen-contenido">
+                <p data-i18n="texto_quen_somos">Somos unha asociación cultural sen ánimo de lucro, formada por unha
+                    equipa de xente sensibilizada coas linguas minoritarias e minorizadas do estado español. Movidas por
+                    un profundo amor e respecto por tódalas linguas que coexisten en todo o territorio, considerámonos
+                    afortunadas de poder contar con este patrimonio lingüístico único e diverso. Cremos que cada lingua
+                    constrúe unha forma única de ollar o mundo e a música é a chave para mostrar esa ollada ao resto, de
+                    aí que se diga que a música é a linguaxe universal. En MiusikMin atoparás unha equipa comprometida
+                    coa promoción, visibilización, divulgación e normalización de tódalas linguas minoritarias do estado
+                    español, usando a música como ferramenta principal de transformación social e difusión tanto
+                    cultural como educativa. Non só protexemos palabras; celebramos identidades!</p>
+                <div class="quen-grid">
+                    <div class="quen-card quen-card--difusion">
+                        <img src="./assets/svg/libro.svg">
+                        <p data-i18n="texto_difusion">Difusión tanto cultural como educativa</p>
+                    </div>
+                    <div class="quen-card quen-card--equipo">
+                        <img src="./assets/svg/persoas.svg">
+                        <p data-i18n="texto_xente">Xente sensibilizada coas linguas</p>
+                    </div>
+                    <div class="quen-card quen-card--musica">
+                        <img src="./assets/svg/musica.svg">
+                        <p data-i18n="texto_musica">A música como ferramenta</p>
+                    </div>
+                    <div class="quen-card quen-card--asociacion">
+                        <img src="./assets/svg/rama.svg">
+                        <p data-i18n="texto_asociacion">Asociación cultural sen ánimo de lucro</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="container purple seccion" id="que-facemos">
+            <div class="intro-que-facemos">
+                <h2 data-i18n="que_facemos">Qué facemos</h2>
+                <p data-i18n="texto_que_facemos">O principal obxectivo da nosa entidade é visibilizar, impulsar,
+                    divulgar e celebrar a diversidade lingüística dos diferentes territorios que compoñen o estado
+                    español. Traballamos para crear redes entre artistas, impulsar proxectos educativos, organizar
+                    encontros e acercar a creación musical nestas linguas a novos públicos, rompendo así fronteiras
+                    xeográficas e prexuízos culturais. Queremos xerar tamén espazos de encontro, creación e difusión
+                    que empreguen linguas con menor exposición mediática.</p>
+            </div>
+            <h3 data-i18n="nosas_areas">As nosas áreas de actuación:</h3>
+            <div class="grid-areas-actuacion">
+                <article class="card-area-actuacion">
+                    <h4 data-i18n="proxectos_educativos">Proxectos educativos</h4>
+                    <p data-i18n="texto_proxectos_educativos">Deseñamos propostas didácticas e obradoiros dirixidos
+                        a centros educativos, centros sociais e colectivos culturais, acercando a realidade
+                        lingüística e musical con dinámicas participativas e lúdicas para espertar a curiosidade e
+                        transmitir o gusto por linguas diferentes á propia.</p>
+                </article>
+                <article class="card-area-actuacion">
+                    <h4 data-i18n="actividades_culturais">Actividades culturais</h4>
+                    <p data-i18n="texto_actividades_culturais">Impulsamos coloquios, presentacións, xornadas de
+                        intercambio musical e obradoiros creativos promovendo espazos para aprender, reflexionar e
+                        tamén desfrutar.</p>
+                </article>
+                <article class="card-area-actuacion">
+                    <h4 data-i18n="concertos_e_festivais">Concertos e festivais</h4>
+                    <p data-i18n="texto_concertos_e_festivais">Organizamos encontros que impulsen proxectos musicais
+                        nas distintas linguas minoritarias e minorizadas do estado. Creamos lugares onde a música
+                        actúe como ponte entre territorios.</p>
+                </article>
+                <article class="card-area-actuacion">
+                    <h4 data-i18n="arquivo_e_divulgacion">Arquivo e divulgación</h4>
+                    <p data-i18n="texto_arquivo_e_divulgacion">Creamos unha ferramenta propia, a nosa aplicación
+                        musical, que pode ser usada libremente e fai ao mesmo tempo de arquivo dos diferentes
+                        artistas que usan algunha das linguas minoritarias nos seus proxectos musicais. Para a
+                        divulgación apostamos por unha programación coidada e horizontal, que está aberta ás persoas
+                        que xa teñen un vínculo con estas linguas, como as que queren descubrilas por primeira vez.
+                        Confiamos en que a música permite dar cabida a un espazo de convivencia, aprendizaxe mutuo e
+                        desfrute compartido.</p>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container footer" id="contacto">
+            <p>
+                <span data-i18n="contacto">Contacto</span>: info@miusikmin.gal
+            </p>
+            <!--<a href="https://www.instagram.com/galiciajudo?lqvp=MXR5dmpxZnE5amxqeA==" target="_blank"
+                rel="noopener noreferrer">@MiusikMin</a>-->
+        </div>
+    </footer>
+    <script src="./index.js"></script>
 </body>
+
 </html>
