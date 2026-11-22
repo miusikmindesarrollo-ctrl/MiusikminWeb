@@ -59,6 +59,7 @@ header {
     font-family: 'Gill Sans MT', sans-serif;
     font-size: 15px;
     border-radius: 0.5rem;
+    border: 1px solid var(--mm-blue)
 }
 .cab #lang:hover {
     
