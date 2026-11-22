@@ -99,15 +99,14 @@ header {
 .cab #lang:hover {
   cursor: pointer;
 }
-
+.logo-letras{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
 .logo-letras img {
     width: auto;
-    height: 60px;
-}
-
-.logo img {
-    width: auto;
-    height: 100px;
+    height: 2.5rem;
 }
 
 /* HERO */
