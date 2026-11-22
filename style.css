@@ -24,20 +24,23 @@
 }
 
 .blue {
-  color: var(--mm-blue);
-  border-bottom: 1px solid var(--mm-blue);
+    color: var(--mm-blue);
+    border-bottom: 1px solid var(--mm-blue);
 }
+
 .purple {
-  color: var(--mm-purple);
-  border-bottom: 1px solid var(--mm-purple);
+    color: var(--mm-purple);
+    border-bottom: 1px solid var(--mm-purple);
 }
+
 .green {
-  color: var(--mm-green);
-  border-bottom: 1px solid var(--mm-green);
+    color: var(--mm-green);
+    border-bottom: 1px solid var(--mm-green);
 }
+
 .pink {
-  color: var(--mm-pink);
-  border-bottom: 1px solid var(--mm-pink);
+    color: var(--mm-pink);
+    border-bottom: 1px solid var(--mm-pink);
 }
 
 header {
@@ -59,12 +62,12 @@ header {
     align-items: center;
 }
 
-.cab > a {
-  text-decoration: none;
-  font-size: 2.5rem;
-  color: var(--mm-blue);
-  font-family: 'Gill Sans MT', sans-serif;
-  text-transform: uppercase;
+.cab>a {
+    text-decoration: none;
+    font-size: 2.5rem;
+    color: var(--mm-blue);
+    font-family: 'Gill Sans MT', sans-serif;
+    text-transform: uppercase;
 }
 
 .cab nav {
@@ -95,13 +98,15 @@ header {
 }
 
 .cab #lang:hover {
-  cursor: pointer;
+    cursor: pointer;
 }
-.logo-letras{
+
+.logo-letras {
     display: flex;
     align-items: center;
     gap: 0.5rem;
 }
+
 .logo-letras img {
     width: auto;
     height: 2.5rem;
@@ -117,7 +122,7 @@ header {
 }
 
 .hero-background {
-  background: linear-gradient(45deg, var(--mm-blue-title) 15%, var(--mm-blue) 45%, white);
+    background: linear-gradient(45deg, var(--mm-blue-title) 15%, var(--mm-blue) 45%, white);
 }
 
 .hero h1 {
@@ -127,6 +132,7 @@ header {
     letter-spacing: -0.2rem;
     margin-bottom: 1rem;
 }
+
 .hero_p {
     margin-bottom: 1rem;
     font-weight: 600;
@@ -134,105 +140,117 @@ header {
 }
 
 .hero button {
-  color: white;
-  font-weight: 600;
-  background-color: #0680E0;
-  border-radius: 1rem;
-  padding: 0.5rem 1rem;
-  border: none;
+    color: white;
+    font-weight: 600;
+    background-color: #0680E0;
+    border-radius: 1rem;
+    padding: 0.5rem 1rem;
+    border: none;
 }
 
 .hero button:hover {
-  cursor: pointer;
-  transform: scale(1.1);
-  transition: 0.25s;
-  filter: brightness(1.1);
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: 0.25s;
+    filter: brightness(1.1);
 }
 
 .seccion {
-  padding-top: 4rem;
-  padding-bottom: 5rem;
-  font-family: 'Gill Sans MT', sans-serif;
+    padding-top: 4rem;
+    padding-bottom: 5rem;
+    font-family: 'Gill Sans MT', sans-serif;
 }
+
 .seccion h2 {
-  color: var(--mm-blue);
-  font-size: 2.5rem;
-  margin-bottom: 1rem;
+    color: var(--mm-blue);
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
 }
 
 .seccion p {
-  color: var(--mm-gray);
-  font-size: 1.1rem;
-  line-height: 1.7;
+    color: var(--mm-gray);
+    font-size: 1.1rem;
+    line-height: 1.7;
 }
 
 /* =========================
    QUEN SOMOS
 ========================= */
 .quen-contenido {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: clamp(1.5rem, 4vw, 5rem);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: clamp(1.5rem, 4vw, 5rem);
 }
+
 .quen-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: clamp(0.75rem, 1.5vw, 1rem);
-  justify-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: clamp(0.75rem, 1.5vw, 1rem);
+    justify-items: center;
 }
+
 .quen-card {
-  max-width: max-content;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  width: 100%;
-  padding: 1.5rem;
-  box-sizing: border-box;
-  gap: clamp(0.75rem, 2vw, 1.5rem);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    padding: 1.5rem;
+    box-sizing: border-box;
+    gap: clamp(0.75rem, 2vw, 1.5rem);
 }
+
 .quen-card--difusion {
-  background-color: var(--mm-purple);
+    background-color: var(--mm-purple);
 }
+
 .quen-card--equipo {
-  background-color: var(--mm-blue);
+    background-color: var(--mm-blue);
 }
+
 .quen-card--musica {
-  background-color: var(--mm-pink);
+    background-color: var(--mm-pink);
 }
+
 .quen-card--asociacion {
-  background-color: var(--mm-green);
+    background-color: var(--mm-green);
 }
 
 .quen-card img {
-  width: auto;
-  height: 100px;
+    width: auto;
+    height: 100px;
 }
+
 .quen-card p {
-  color: white;
+    color: white;
 }
+
 .quen-card::after {
-  content: "";
-  width: 5rem;
-  height: 2px;
-  background-color: white;
-  margin-top: 0.25rem;
-  opacity: 0.85;
+    content: "";
+    width: 5rem;
+    height: 2px;
+    background-color: white;
+    margin-top: 0.25rem;
+    opacity: 0.85;
 }
 
 @media (max-width: 900px) {
-  .quen-contenido {
-    grid-template-columns: minmax(0, 1fr);
-  }
+    .quen-contenido {
+        grid-template-columns: minmax(0, 1fr);
+    }
 }
 
 /* En móvil muy estrecho, si los cuadrados quedan muy chicos, puedes pasar a 1 columna */
 @media (max-width: 460px) {
-  .quen-grid {
-    grid-template-columns: minmax(0, 1fr);
-    max-width: 320px;
-  }
+    .quen-contenido {
+        justify-items: center;
+    }
+
+    .quen-grid {
+        grid-template-columns: minmax(0, 1fr);
+        max-width: 320px;
+    }
 }
 
 /* =========================
@@ -240,79 +258,79 @@ header {
 ========================= */
 
 .intro-que-facemos {
-  margin-bottom: 3rem;
+    margin-bottom: 3rem;
 }
 
 #que-facemos h3 {
-  color: var(--mm-purple);
-  font-size: 1.5rem;
-  margin-bottom: 2rem;
+    color: var(--mm-purple);
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
 }
 
 .grid-areas-actuacion {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 1.5rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
 }
 
 .card-area-actuacion {
-  background-color: #ffffff;
+    background-color: #ffffff;
 
-  padding: 2rem;
+    padding: 2rem;
 
-  border-radius: 12px;
-  border-left: 4px solid var(--mm-blue);
+    border-radius: 12px;
+    border-left: 4px solid var(--mm-blue);
 
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
 
-  transition: transform 0.2s ease,
-              box-shadow 0.2s ease;
+    transition: transform 0.2s ease,
+        box-shadow 0.2s ease;
 }
 
 .card-area-actuacion:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 8px 22px rgba(0, 0, 0, 0.12);
+    transform: translateY(-4px);
+    box-shadow: 0 8px 22px rgba(0, 0, 0, 0.12);
 }
 
 .card-area-actuacion h4 {
-  color: var(--mm-blue);
-  font-size: 1.3rem;
-  margin-bottom: 1rem;
+    color: var(--mm-blue);
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
 }
 
 .card-area-actuacion p {
-  color: var(--mm-gray);
-  font-size: 1rem;
-  line-height: 1.6;
+    color: var(--mm-gray);
+    font-size: 1rem;
+    line-height: 1.6;
 }
 
 @media (max-width: 768px) {
-  .cab {
-    gap: 1rem;
-    flex-direction: column;
-  }
+    .cab {
+        gap: 1rem;
+        flex-direction: column;
+    }
 
-  .cab nav a {
-    padding: 0.5rem;
-  }
-  
+    .cab nav a {
+        padding: 0.5rem;
+    }
 
-  .seccion {
-    padding-top: 3rem;
-    padding-bottom: 3rem;
-  }
 
-  .intro-que-facemos h2 {
-    font-size: 2rem;
-  }
+    .seccion {
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
 
-  .grid-areas-actuacion {
-    grid-template-columns: 1fr;
-  }
+    .intro-que-facemos h2 {
+        font-size: 2rem;
+    }
 
-  .card-area-actuacion {
-    padding: 1.5rem;
-  }
+    .grid-areas-actuacion {
+        grid-template-columns: 1fr;
+    }
+
+    .card-area-actuacion {
+        padding: 1.5rem;
+    }
 
 }
 
@@ -337,6 +355,7 @@ footer {
     color: var(--mm-white);
     text-decoration: none;
 }
+
 .footer a:hover {
-  color: #b9ccef;
+    color: #b9ccef;
 }
