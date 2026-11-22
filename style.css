@@ -1,0 +1,59 @@
+:root {
+    --mm-blue: #3D69B2;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    margin: 0 auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    max-width: 90rem;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 50;
+    width: 100%;
+    background-color: #F8F8F8;
+    border-bottom: 1px solid var(--mm-blue);
+}
+
+.cab {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cab nav {
+    display: flex;
+    gap: 2rem;
+    
+}
+
+.cab nav a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.logo-letras img {
+    width: auto;
+    height: 60px;
+}
+
+.logo img {
+    width: auto;
+    height: 100px;
+}
+
+/* FONTS */
+@font-face {
+    font-family: "Gil Sants";
+    src: url(./assets/fonts/GIL_____.TTF);
+}
