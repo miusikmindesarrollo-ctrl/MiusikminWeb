@@ -72,6 +72,7 @@ header {
     font-family: 'Gill Sans MT', sans-serif;
     font-size: 15px;
     font-weight: 600;
+    align-items: center;
 }
 
 .cab nav a {
@@ -86,9 +87,6 @@ header {
 }
 
 .cab #lang {
-    appearance: none;
-    -webkit-appearance: none;
-    -moz-appearance: none;
     padding: 0.5rem;
     font-family: 'Gill Sans MT', sans-serif;
     font-size: 15px;
@@ -289,8 +287,17 @@ header {
 }
 
 @media (max-width: 768px) {
+  .cab {
+    gap: 1rem;
+    flex-direction: column;
+  }
 
-  #que-facemos {
+  .cab nav a {
+    padding: 0.5rem;
+  }
+  
+
+  .seccion {
     padding-top: 3rem;
     padding-bottom: 3rem;
   }
