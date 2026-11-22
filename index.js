@@ -1,4 +1,5 @@
 DEFAULT_LANG = "galego"
+let current_lang = DEFAULT_LANG;
 
 const idiomas = {
 
@@ -125,7 +126,7 @@ const idiomas = {
 
 };
 
-changeLang(DEFAULT_LANG);
+changeLang(current_lang);
 
 function changeLang(current_lang){
     const traducibles = document.querySelectorAll("[data-i18n]");
