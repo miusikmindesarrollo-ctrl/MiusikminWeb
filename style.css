@@ -1,6 +1,6 @@
 :root {
     --mm-blue: #3D69B2;
-    --mm-blue-title: #123977;
+    --mm-blue-title: #1E3A5F;
     --mm-purple: #4D4B9F;
     --mm-green: #63CBC6;
     --mm-pink: #EF4B87;
@@ -20,6 +20,23 @@
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
     max-width: 72rem;
+}
+
+.blue {
+  color: var(--mm-blue);
+  border-bottom: 1px solid var(--mm-blue);
+}
+.purple {
+  color: var(--mm-purple);
+  border-bottom: 1px solid var(--mm-purple);
+}
+.green {
+  color: var(--mm-green);
+  border-bottom: 1px solid var(--mm-green);
+}
+.pink {
+  color: var(--mm-pink);
+  border-bottom: 1px solid var(--mm-pink);
 }
 
 header {
@@ -56,9 +73,7 @@ header {
 }
 
 .cab nav a:hover {
-    /* transition-duration: 0.5s; */
     color: var(--mm-purple);
-    border-bottom: 1px solid var(--mm-purple)
 }
 
 .cab #lang {
@@ -72,7 +87,9 @@ header {
     border: 1px solid var(--mm-blue)
 }
 
-.cab #lang:hover {}
+.cab #lang:hover {
+  cursor: pointer;
+}
 
 .logo-letras img {
     width: auto;
@@ -90,49 +107,44 @@ header {
     grid-template-columns: 1fr 1fr;
     font-family: 'Gill Sans MT', sans-serif;
     padding-block: 4.5rem;
+    color: white;
 }
 
-.hero .hero-texto {
-    
-}
-
-.hero .hero-image {
-    
+.hero-background {
+  background: linear-gradient(45deg, var(--mm-blue-title) 15%, var(--mm-blue) 45%, white);
 }
 
 .hero h1 {
     font-weight: 800;
     text-transform: uppercase;
     font-size: 2.5rem;
-    color: var(--mm-blue-title);
     letter-spacing: -0.2rem;
-    margin-bottom: 1.5rem;
+    margin-bottom: 1rem;
 }
 .hero_p {
+    margin-bottom: 1rem;
     font-weight: 600;
     font-size: 1.25rem;
-    color: var(--mm-blue);
 }
 
-/* FONTS */
-/* @font-face {
-    font-family: "Gil Sans";
-    src: url(./assets/fonts/GIL_____.TTF);
-} */
-
-html,
-body {
-  min-height: 100%;
+.hero button {
+  color: white;
+  font-weight: 600;
+  background-color: #0680E0;
+  border-radius: 1rem;
+  padding: 0.5rem 1rem;
+  border: none;
 }
 
-body {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+.hero button:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: 0.25s;
+  filter: brightness(1.1);
 }
 
-main {
-  flex: 1;
+section h2 {
+  
 }
 
 /* =========================
@@ -233,6 +245,7 @@ footer {
     color: var(--mm-white);
     font-family: 'Gill Sans MT', sans-serif;
     padding: 1rem 0;
+    bottom: 0;
 }
 
 .footer {
