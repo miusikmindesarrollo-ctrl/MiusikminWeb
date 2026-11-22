@@ -16,7 +16,7 @@
 .container {
     margin: 0 auto;
     padding-left: 1rem;
-    padding-right: rem;
+    padding-right: 1rem;
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
     max-width: 72rem;
@@ -56,6 +56,14 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.cab > a {
+  text-decoration: none;
+  font-size: 2.5rem;
+  color: var(--mm-blue);
+  font-family: 'Gill Sans MT', sans-serif;
+  text-transform: uppercase;
 }
 
 .cab nav {
@@ -143,28 +151,23 @@ header {
   filter: brightness(1.1);
 }
 
-section h2 {
-  
+.seccion {
+  padding-top: 4rem;
+  padding-bottom: 5rem;
+  font-family: 'Gill Sans MT', sans-serif;
+}
+.seccion h2 {
+  color: var(--mm-blue);
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
 }
 
 /* =========================
    QUE FACEMOS
 ========================= */
 
-#que-facemos {
-  padding-top: 4rem;
-  padding-bottom: 5rem;
-  font-family: 'Gill Sans MT', sans-serif;
-}
-
 .intro-que-facemos {
   margin-bottom: 3rem;
-}
-
-.intro-que-facemos h2 {
-  color: var(--mm-blue);
-  font-size: 2.5rem;
-  margin-bottom: 1rem;
 }
 
 .intro-que-facemos p {
