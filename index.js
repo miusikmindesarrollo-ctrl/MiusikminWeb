@@ -17,7 +17,7 @@ const idiomas = {
         "quen_somos": "Quen somos",
         "texto_quen_somos": "Somos unha asociación cultural sen ánimo de lucro, formada por unha equipa de xente sensibilizada coas linguas minoritarias e minorizadas do estado español. Movidas por un profundo amor e respecto por tódalas linguas que coexisten en todo o territorio, considerámonos afortunadas de poder contar con este patrimonio lingüístico único e diverso. Cremos que cada lingua constrúe unha forma única de ollar o mundo e a música é a chave para mostrar esa ollada ao resto, de aí que se diga que a música é a linguaxe universal. En MiusikMin atoparás unha equipa comprometida coa promoción, visibilización, divulgación e normalización de tódalas linguas minoritarias do estado español, usando a música como ferramenta principal de transformación social e difusión tanto cultural como educativa.",
         "slogan_quen_somos": "Non só protexemos palabras; celebramos identidades!",
-        "texto_difusion": "Difusion tanto cultural como educativa",
+        "texto_difusion": "Difusión tanto cultural como educativa",
         "texto_xente": "Xente sensibilizada coas linguas minoritarias",
         "texto_musica": "A música como ferramenta",
         "texto_asociacion": "Asociación cultural sen ánimo de lucro",
