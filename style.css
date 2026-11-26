@@ -367,5 +367,5 @@ footer {
 }
 
 .footer a:hover {
-    color: #b9ccef;
+    color: var(--mm-pink);
 }

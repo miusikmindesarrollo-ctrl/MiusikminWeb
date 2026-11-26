@@ -36,6 +36,7 @@ const idiomas = {
 
         "contacto": "Contacto",
         "correo_electronico": "Correo electrónico",
+        "seguenos": "Séguenos:",
 
     },
 
@@ -71,7 +72,8 @@ const idiomas = {
         "texto_arquivo_e_divulgacion": "Auem creat ua airina pròpria, era nòsta aplicacion musicau, de liure usatge, que foncione tanben coma archiu des diferenti artistes que utilizen bèra ua des lengües minoritàries enes sòns projèctes musicaus. En çò que hè ara divulgacion, apostam per ua programacion cuedada e orizontau, dubèrta tant as persones que ja an un ligam damb aguestes lengües coma a aqueres que les vòlen descorbir per prumèr còp. Auem confiança en qué era musica permet crear un espaci de convivéncia, aprenedissatge mutuau e gaudi compartit.",
 
         "contacto": "Contacte",
-        "correo_electronico": "Correu electronic",
+        "correo_electronico": "Correu electronic",        
+        "seguenos": "Sigue-nos:",
     },
 
     "ca": {
@@ -107,6 +109,7 @@ const idiomas = {
 
         "contacto": "Contacte",
         "correo_electronico": "Correu electrònic",
+        "seguenos": "Segueix-nos:",
     },
 
     "es": {
@@ -142,6 +145,7 @@ const idiomas = {
 
         "contacto": "Contacto",
         "correo_electronico": "Correo electrónico",
+        "seguenos": "Síguenos:",
     },
 
     "eu": {
@@ -177,6 +181,7 @@ const idiomas = {
 
         "contacto": "Kontaktua",
         "correo_electronico": "Posta elektronikoa",
+        "seguenos": "Jarraiguzu:",
     },
 
     "ca-valencia": {
@@ -212,6 +217,7 @@ const idiomas = {
 
         "contacto": "Contacte",
         "correo_electronico": "Correu electrònic",
+        "seguenos": "Segueix-nos:",
     }
 
 };
